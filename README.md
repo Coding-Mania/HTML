@@ -1,2 +1,2 @@
 # HTML
-Learn HTML With Us❤️ Join t.me/CodingManiaTech
+Learn HTML With Us❤️
