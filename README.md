@@ -14,10 +14,10 @@
 [![Website](https://img.shields.io/badge/Official%20Website-Visit%20Now-blue?logo=git&style=for-the-badge)](https://codingmania.tech)
 
 # Our Team
-[![Team Members](https://img.shields.io/badge/Owner-Bhivoor-orange?style=for-the-badge)](t.me/Bhivorsinghrajpoot)
+[![Team Members](https://img.shields.io/badge/Owner-Bhivoor-orange?style=for-the-badge)](https://t.me/Bhivorsinghrajpoot)
 <br>
-[![Team Members](https://img.shields.io/badge/Python%20Dev-CyberBoyAyush-orange?style=for-the-badge)](t.me/CyberbOyAyush)
+[![Team Members](https://img.shields.io/badge/Python%20Dev-CyberBoyAyush-orange?style=for-the-badge)](https://t.me/CyberbOyAyush)
 <br>
-[![Team Members](https://img.shields.io/badge/Web%20Dev-Anshu-orange?style=for-the-badge)](t.me/anshu594)
+[![Team Members](https://img.shields.io/badge/Web%20Dev-Anshu-orange?style=for-the-badge)](https://t.me/anshu594)
 <br>
-[![Team Members](https://img.shields.io/badge/Pro%20Coder-Rakesh%20Raj-orange?style=for-the-badge)](t.me/Rakesh_Raj)
+[![Team Members](https://img.shields.io/badge/Pro%20Coder-Rakesh%20Raj-orange?style=for-the-badge)](https://t.me/Rakesh_Raj)
