@@ -14,7 +14,7 @@
 [![Website](https://img.shields.io/badge/Official%20Website-Visit%20Now-blue?logo=git&style=for-the-badge)](https://codingmania.tech)
 
 # Our Team
-[![Team Members](https://img.shields.io/badge/Owner-Bhivoor-orange?style=for-the-badge)](https://t.me/Bhivorsinghrajpoot)
+[![Team Members](https://img.shields.io/badge/Owner-Bhivor-orange?style=for-the-badge)](https://t.me/Bhivorsinghrajpoot)
 <br>
 [![Team Members](https://img.shields.io/badge/Python%20Dev-CyberBoyAyush-orange?style=for-the-badge)](https://t.me/CyberbOyAyush)
 <br>
