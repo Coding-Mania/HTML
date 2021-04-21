@@ -1,0 +1,369 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>BASIC</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+table, th, td {
+ border: 1px solid black;
+ border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+  <!-- Write your comments here -->
+  <h1>This is first HTML file Header 1</h1>
+  <h2>Header 2</h2>
+  <h3>Header 3</h3>
+  <h4>Header 4</h4>
+  <h5>Header 5</h5>
+  <h6>Header 6</h6>
+  <p>This Is a Paragraph in paragraph tag inside body.</p>
+  <b>This Is Bold Line</b>
+  <br />
+  <i>This is itallic</i>
+  <br />
+  <s>This is Strikethrough</s>
+  <br />
+  <u>This Is Underlined</u>
+  <br />
+  <p><strong>This text is strong</strong>
+  <em>This text is emphasized</em> strong and em means that the text is "important".</p>
+  <br />
+  <h1>Sized Emojis</h1>
+
+<p style="font-size:48px">
+&#128512; &#128516; &#128525; &#128151;
+</p>
+
+  <pre>
+  My Bonnie lies over the ocean.
+
+  My Bonnie lies over the sea.
+
+  My Bonnie lies over the ocean.
+
+  Oh, bring back my Bonnie to me.
+  </pre>
+  <h2>HTML <small>Small</small> Formatting</h2>
+  <h2>HTML <mark>Marked</mark> Formatting</h2>
+  <p>My favorite color is <del>blue</del> red.</p>
+  <p>My favorite <ins>color</ins> is red.</p>
+  <p>This is <sub>subscripted</sub> text.</p>
+  <p>This is <sup>superscripted</sup> text.</p>
+  <a href="https://www.w3schools.com">This is a link</a>
+  <br />
+  <a href="#p01">This is a link to p01 ID Paragraph of Same Page</a>
+  <a href="html_demo.html#C4">Jump to Chapter 4 ID Of Different Page</a>
+  <br />
+  <img src="img.jpg" width="500" height="600" alt="This Is An Image">
+  <p style="background-color:powderblue;color:red; text-align: center;font-size:200%">This is a red paragraph at center with 200% larger font size and colourful background.</p>
+  <bdo dir="rtl">This text will be written from right to left</bdo>
+  <p>Boarder With HTML Colour</p>
+  <h1 style="border:2px solid Tomato;">Tomato</h1>
+  <h1 style="border:2px solid DodgerBlue;">Dodger Blue</h1>
+  <h1 style="border:2px solid Violet;">Violet</h1>
+  <h1 style="border:2px solid Green;">Green</h1>
+  <h1 style="border:2px solid Orange;">Orange</h1>
+  <h1 style="border:2px solid Gray;">Gray</h1>
+  <h1 style="border:2px solid SlateBlue;">Slate Blue</h1>
+  <h1 style="border:2px solid LightGray;">Light Gray </h1>
+  <h1 style="border:2px solid MediumSeaGreen;">Medium Sea Green</h1>
+  <p id="p01">I am different</p>
+  <p>Locked in a frame? <a href="#" target="_top">Click here Go To Top!</a></p>
+  <p><a href="https://google.com/" target="_blank">Open me in new tab!</a></p>
+  <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+The image will float to the right of the text.</p>
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>
+    <td>80</td>
+  </tr>
+</table>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+  <ol start="50">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<iframe src="https://web.dev/" height="200" width="300"></iframe>
+<!--when clicked target open in iframe-->
+<iframe src="demo_iframe.htm" name="iframe_a"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+<br />
+<p id="demo0"> This Will be changed</p>
+<script>
+document.getElementById("demo0").innerHTML = "Hello JavaScript! I'm Changed";
+</script> 
+<hr />
+<h2>The button Element</h2>
+
+<button type="button" onclick="alert('Hello World!')">Click Me!</button>
+<hr />
+<p id="demo1">JavaScript can change the style of an HTML element.</p>
+<script>
+function myFunction() {
+  document.getElementById("demo1").style.fontSize = "25px"; 
+  document.getElementById("demo1").style.color = "red";
+  document.getElementById("demo1").style.backgroundColor = "yellow";        
+}
+</script>
+<button type="button" onclick="myFunction()">Click Me And See Magic!</button>
+<br />
+<hr />
+<div>
+  <div>
+<a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_script_attribute"> More Info for below Awesom Code</a>
+  </div>
+<script>
+function light(sw) {
+  var pic;
+  if (sw == 0) {
+    pic = "pic_bulboff.gif"
+  } else {
+    pic = "pic_bulbon.gif"
+  }
+  document.getElementById('myImage').src = pic;
+}
+</script>
+<img id="myImage" src="pic_bulboff.gif" width="100" height="180">
+<p>
+<button type="button" onclick="light(1)">Light On</button>
+<button type="button" onclick="light(0)">Light Off</button>
+</p>
+</div>
+<hr />
+<!--End Code-->
+<h1 style="font-size:10vw">Hello World! 1vw = 1% of viewport width. If the viewport is 50cm wide, 1vw is 0.5cm.</h1>
+<pre>
+<code>
+x = 5;
+y = 6;
+z = x + y;
+</code>
+</pre>
+<p>Save the document by pressing <kbd>Ctrl + S</kbd> Represents Keyboar User Input</p>
+<p>If you input wrong value, the program will return <samp>Error!</samp> Represent Output</p>
+<h2>The var Element</h2>
+<p>Einstein wrote: <var>E</var> = <var>mc</var><sup>2</sup>.</p>
+<br />
+<h4> Figure With Caption</h4>
+<figure>
+  <img src="pic_trulli.jpg" alt="Trulli">
+  <figcaption>Fig1. - Trulli, Puglia, Italy.</figcaption>
+</figure>
+<hr />
+<h2>Text input fields</h2>
+
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe">
+</form>
+<hr />
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of text input fields is 20 characters.</p>
+
+<h2>Radio Buttons</h2>
+
+<form>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+</form> 
+<hr />
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+<hr />
+<h2>The form target attribute</h2>
+
+<p>When submitting this form, the result will be opened in a new browser tab:</p>
+
+<form action="/action_page.php" target="_blank">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+<hr />
+<h2>The method Attribute</h2>
+
+<p>This form will be submitted using the GET method:</p>
+
+<form action="/action_page.php" target="_blank" method="get">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>After you submit, notice that the form values is visible in the address bar of the new browser tab.</p>
+<hr />
+<h2>The method Attribute</h2>
+
+<p>This form will be submitted using the POST method:</p>
+
+<form action="/action_page.php" target="_blank" method="post">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+<p>After you submit, notice that, unlike the GET method, the form values is NOT visible in the address bar of the new browser tab.</p>
+<hr />
+<h2>The select Element</h2>
+
+<p>The select element defines a drop-down list:</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select>
+  <input type="submit">
+</form>
+<hr />
+<h2>Allow Multiple Seletcions</h2>
+
+<p>Use the multiple attribute to allow the user to select more than one value.</p>
+
+<form action="/action_page.php">
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="cars" size="4" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option>
+    <option value="audi">Audi</option>
+  </select><br><br>
+  <input type="submit">
+</form>
+
+<p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+<hr />
+<h2>Textarea</h2>
+<p>The textarea element defines a multi-line input field.</p>
+
+<form action="/action_page.php">
+  <textarea name="message" rows="10" cols="30">The cat was playing in the garden.</textarea>
+  <br><br>
+  <input type="submit">
+</form>
+<hr />
+<h2>Grouping Form Data with Fieldset</h2>
+
+<p>The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.</p>
+
+<form action="/action_page.php">
+  <fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+</form>
+<hr />
+<h2>The output Element</h2>
+<p>The output element represents the result of a calculation.</p>
+
+<form action="/action_page.php"
+oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  0
+  <input type="range" id="a" name="a" value="50">
+  100 +
+  <input type="number" id="b" name="b" value="50">
+  =
+  <output name="x" for="a b"></output>
+  <br><br>
+  <input type="submit">
+</form>
+
+<p><strong>Note:</strong> The output element is not supported in Edge prior version 13.</p>
+<hr />
+<svg width="100" height="100">
+  <circle cx="50" cy="50" r="40"
+  stroke="green" stroke-width="4" fill="yellow" />
+Sorry, your browser does not support inline SVG.
+</svg>
+<svg width="400" height="100">
+  <rect width="400" height="100" 
+  style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+Sorry, your browser does not support inline SVG.
+</svg>
+ <svg width="400" height="180">
+  <rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+  style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+Sorry, your browser does not support inline SVG.
+</svg>
+
+<svg width="300" height="200">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+Sorry, your browser does not support inline SVG.
+</svg>
+ <svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"
+      style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%"
+      style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana"
+  x="50" y="86">SVG</text>
+Sorry, your browser does not support inline SVG.
+</svg>
+</body>
+</html>
